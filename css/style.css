@@ -1,0 +1,33 @@
+:root{
+  --kb-speed: 5s;
+  --kb-type: zoom;
+}
+body{
+  background: #000;
+}
+.kb-item {
+  -webkit-animation: var(--kb-type) var(--kb-speed) infinite alternate linear;
+  -moz-animation: var(--kb-type) var(--kb-speed) infinite alternate linear;
+  animation: var(--kb-type) var(--kb-speed) infinite alternate linear;
+  background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/03/Blue-Green-beautiful-nature-wallpaper.jpg);
+  background-position: 0px 0px;
+  background-position: center; 
+  height: 500px;
+}
+@keyframes zoom {
+  0%, 100% {
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  50% {
+    -webkit-background-size: 200%;
+    -moz-background-size: 200%;
+    -o-background-size: 200%;
+    background-size: 200%;
+  }
+}
+@keyframes move {
+  100% { background-position: 10% 100%;}
+}

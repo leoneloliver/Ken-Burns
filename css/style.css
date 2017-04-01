@@ -2,9 +2,11 @@
   --kb-speed: 5s;
   --kb-type: zoom;
 }
+
 body{
   background: #000;
 }
+
 .kb-item {
   -webkit-animation: var(--kb-type) var(--kb-speed) infinite alternate linear;
   -moz-animation: var(--kb-type) var(--kb-speed) infinite alternate linear;
@@ -14,6 +16,7 @@ body{
   background-position: center; 
   height: 500px;
 }
+
 @keyframes zoom {
   0%, 100% {
     -webkit-background-size: 100%;

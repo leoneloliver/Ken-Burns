@@ -14,7 +14,6 @@ body{
   background-position: center; 
   height: 500px;
 }
-
 @keyframes zoom {
   0%, 100% {
     -webkit-background-size: 100%;
@@ -32,5 +31,3 @@ body{
 @keyframes move {
   100% { background-position: 10% 100%;}
 }
-
-

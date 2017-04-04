@@ -1,4 +1,7 @@
 # Ken-Burns
 
+Simple Ken-Burns effect using JS+css
 
-https://codepen.io/leoneloliver/full/PpEPPN/
+Live Demo [click here](https://codepen.io/leoneloliver/full/PpEPPN//) 
+
+
